@@ -2,6 +2,8 @@ def waiting_line(operations):
     queue = []
     results = []
 
+    # steps 
+
     for operation in operations:
         if operation[0] == 'E':
             x = operation[1]
