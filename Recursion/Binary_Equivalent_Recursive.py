@@ -11,5 +11,4 @@ if __name__ == "__main__":
     for _ in range(t):
         n = int(input().strip())
         binary_representation = to_binary(n)
-        # If n is 0, explicitly return "0" since the recursive function returns an empty string for n=0
         print(binary_representation if binary_representation else "0")
