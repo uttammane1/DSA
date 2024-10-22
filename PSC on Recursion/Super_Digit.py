@@ -1,5 +1,3 @@
-# name = input()                  # Reading input from STDIN
-# print('Hi, %s.' % name)         # Writing output to STDOUT
 def super_digit(n):
     if len(n) == 1:
         return int(n)
