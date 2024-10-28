@@ -1,5 +1,3 @@
-# name = input()                  # Reading input from STDIN
-# print('Hi, %s.' % name)         # Writing output to STDOUT
 def to_binary(n):
     if n == 0:
         return ''
