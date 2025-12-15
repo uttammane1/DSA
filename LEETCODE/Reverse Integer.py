@@ -23,3 +23,6 @@ class Solution(object):
             rev = rev * 10 + pop
 
         return sign * rev
+
+                # return sign rev
+
