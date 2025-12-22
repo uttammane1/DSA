@@ -16,7 +16,6 @@ class Solution(object):
             pop = x % 10
             x //= 10
 
-            # Check overflow
             if rev > (INT_MAX - pop) // 10:
                 return 0
 
